@@ -6,6 +6,6 @@ services:
     volumes:
       - ./data:/app/data
     ports:
-      - "3001:3001"  # <Host Port>:<Container Port>
+      - "4001:3001"  # <Host Port>:<Container Port>
       # - "3307:3306"
 
