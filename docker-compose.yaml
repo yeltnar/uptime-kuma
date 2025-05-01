@@ -3,6 +3,8 @@ services:
   uptime-kuma:
     container_name: uptime-kuma
     image: louislam/uptime-kuma
+    # this is to allow ping 
+    privileged: true 
     volumes:
       - ./data:/app/data
     ports:
